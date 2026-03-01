@@ -1,0 +1,1 @@
+const t="https://elszjh.cn";function r(r){if(!r)return"";if("object"==typeof r){const t=r.url||r.image||r.path||r.src;if(!t)return"";r=t}const e=String(r).trim();return e?e.startsWith("http")||e.startsWith("data:image")?e:t+"/"+e.replace(/^\/+/,""):""}export{r as g};
